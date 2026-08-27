@@ -1,0 +1,27 @@
+# Core
+numpy==2.0.2
+torch>=2.4,<2.11
+torchaudio>=2.4,<2.11
+torchvision>=0.19,<0.26
+tqdm==4.67.1
+transformers==4.57.0
+tokenizers==0.22.1
+einops==0.8.1
+accelerate==1.12.0
+soundfile
+librosa
+
+# HeartMuLa specific
+torchtune==0.4.0
+torchao==0.9.0
+bitsandbytes==0.49.0
+vector-quantize-pytorch==1.27.15
+modelscope==1.33.0
+
+# UVR / Audio Separation (macOS CPU/CoreML)
+audio-separator[cpu]
+
+# Utilities
+pydub
+requests
+python-dotenv
